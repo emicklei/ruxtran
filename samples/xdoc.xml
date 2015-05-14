@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?ruxed transform=xdoc.rb view=xdoc.html?>
+
+<document name="Ruxed Demo">
+      <section name="Section">
+         <p>Text for this section</p> 
+      </section>     
+
+      <subsection name="Subsection">
+         <p>Text for this subsection</p>
+	 <ul>
+		<li>list item 1</li>
+		<li>list item 2</li>
+		<li>list item 2</li>
+ 	 </ul>
+         <example>
+         	this is an example
+         </example>
+
+         <example>
+         	this is an example dit is live hier kun je XDoc editen en hier
+         </example>
+
+	 <source>put here your source code snippet
+hello world, this is an example of editing while viewing
+	 </source>
+      </subsection>
+      
+</document>

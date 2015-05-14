@@ -1,0 +1,29 @@
+# Project full name
+Ruxtran - Ruby XML transformation library
+
+# Project Purpose And Summarization
+Basically, this package contains one abstract class called XMLTransformer.
+It uses REXML to traverse the nodes and sends handle messages for each node.
+For example, when the transformer sees the element <book> 
+then it tries to send the message "handle_book" with the node as its argument.
+
+In addition, the gem contains example classes for transforming:
+xdoc (Anakia format used for Maven sites) -> html
+xsd -> xdoc
+wsdl -> xdoc
+
+If you ever were asked to write XSLT to transform some complex XML files
+then you know XSL can be hard to write and understand. 
+
+The transformation part was inspired by Martin Fowler's article on Rake
+
+# License
+Ruby License
+
+# Project Public Description
+
+# Project Unix Name
+ruxtran
+
+# SCM
+SVN
